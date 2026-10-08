@@ -105,10 +105,12 @@ nav a {
   display: none;
 }
 
-header, section {
+header, 
+section {
   width: min(75em, 100%);
   padding: min(2em, 15%);
-  margin: 0 auto;
+  margin-inline: auto;
+  margin-bottom: 16px;
   border-radius: 1em;
   background: var(--color-1);
 }
@@ -262,7 +264,7 @@ details[open]::details-content {
 /* ---------------------------- */
 
 footer {
-  padding-block: 3em 1.5em;
+  padding-block: 1.5em 1.5em;
   text-align: center;
 }
 
@@ -297,7 +299,15 @@ footer a {
 
   .logo-mobile-menu-hidden {
     display: none;
-  } 
+  }
+
+  .text-container p {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
 
   /* Blocks scrolling when the menu is active */
 
@@ -305,7 +315,7 @@ footer a {
     overflow: hidden;
   }
 
-  /*  */
+  /* Hamburguer Menu */
 
   .open-sidebar-button,
   .close-sidebar-button {
@@ -364,8 +374,17 @@ footer a {
 
   }
 
-  header {
-    margin-top: 0;
+  header,
+  section {
+    padding: 20px;    
+  }
+
+  details summary {
+    font-size: 1.3rem;
+  }
+
+  details p {
+    font-size: 1.1rem;
   }
 
   .cta-button {
