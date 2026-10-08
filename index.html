@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>John Smith</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="logo-mobile">John Smith</a>
+        
+        <!-- Checkbox to open and close the side menu  -->
+        
+        <input type="checkbox" id="nav-toggle">
+        
+        <!-- Label for the overlay -->
+        
+        <label for="nav-toggle" id="overlay"></label>
+        
+        <!-- Label for the hamburger menu icon -->
+        
+        <label for="nav-toggle"  class="open-sidebar-button">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </label>
+        
+        <ul>
+          <!-- Label for the close menu icon -->
+          
+          <label for="nav-toggle" class="close-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+          </label>
+          
+          <!--  -->
+          
+          <li class="logo-mobile-menu-hidden"><a href="#">John Smith</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIN</a></li>
+          <li><a href="#">My Work</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+      </nav>
+      <div class="flex-container">
+        <img width="300px" height="400px" src="images/portrait.jpg" alt="Portrait image">
+        <div class="text-container">
+          <h1>Hey Friends!</h1>
+          <p>I'm John. I'm  a <strong>Photographer</strong> and <strong>Instagram Creator</strong> with a passion for capturing moments that tell magical stories.</p>
+          <a href="" class="cta-button">Follow Me on Instagram</a>
+          <a href="#my-work" class="cta-button secondary">See my Work</a>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="flex-container">
+        <div class="text-container">
+          <h2>How I can help you</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, nobis delectus. Aliquid, blanditiis totam? Cupiditate non veniam maxime voluptate perferendis nemo exercitationem ipsa fuga aut vel beatae modi, incidunt perspiciatis eum, quod id earum nobis. Suscipit quas dolorem nihil at delectus quo distinctio tempore nulla alias vero, labore non sunt?</p>
+        </div>
+        <img width="350px" src="images/undraw_product-photography_pouq.svg" alt="Product photography set">
+      </div>
+    </section>
+
+    <section id="my-work">
+      <h2>Some of my best pictures</h2>
+      <div class="grid-container">
+        <img style="grid-area: img-1" src="images/pexels-alef-morais-336305364-30684729.jpg">
+        <img style="grid-area: img-2" src="images/pexels-aleksey-kuprikov-1883853-3493777.jpg">
+        <img style="grid-area: img-3" src="images/pexels-chris-janda-12879-62600.jpg">
+        <img style="grid-area: img-4" src="images/pexels-frankdhill-1599899.jpg">
+        <img style="grid-area: img-5" src="images/pexels-tomas-anunziata-129267-3876394.jpg">
+      </div>
+      <a href="#" class="cta-button">More on Insta</a>
+    </section>
+
+    <section>
+      <h2>Common Questions</h2>
+
+      <details name="faq">
+        <summary>How much does it cost?</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, explicabo. Quisquam ut, libero, dignissimos suscipit, culpa id aspernatur consequatur beatae eligendi quasi deleniti laudantium? Eaque dignissimos neque tenetur maiores fugit possimus sint illo id perspiciatis, velit quod eveniet ad. Facilis, aspernatur. Magni eum fugit maiores voluptatum architecto. Ullam temporibus porro animi atque illo nisi facilis culpa cum aliquam fugiat. Iusto.</p>
+      </details>
+      <details name="faq">
+        <summary>Do you do wedding</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, explicabo. Quisquam ut, libero, dignissimos suscipit, culpa id aspernatur consequatur beatae eligendi quasi deleniti laudantium? Eaque dignissimos neque tenetur maiores fugit possimus sint illo id perspiciatis, velit quod eveniet ad. Facilis, aspernatur. Magni eum fugit maiores voluptatum architecto. Ullam temporibus porro animi atque illo nisi facilis culpa cum aliquam fugiat. Iusto.</p>
+      </details>
+      <details name="faq">
+        <summary>How can I contact you?</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, explicabo. Quisquam ut, libero, dignissimos suscipit, culpa id aspernatur consequatur beatae eligendi quasi deleniti laudantium? Eaque dignissimos neque tenetur maiores fugit possimus sint illo id perspiciatis, velit quod eveniet ad. Facilis, aspernatur. Magni eum fugit maiores voluptatum architecto. Ullam temporibus porro animi atque illo nisi facilis culpa cum aliquam fugiat. Iusto.</p>
+      </details>
+    </section>
+    
+    <footer>
+      <a href="#">LinkedIn</a>
+      <a href="#">My Work</a>
+      <a href="mailto:example@gmail.com ">Contact</a>
+    </footer>
+  </body>
+</html>
+
+    <!-- <h1>Rainbow Underline</h1>
+
+    <button command="show-modal" commandfor="my-dialog">Open dialog</button>
+
+    <dialog id="my-dialog">
+      <p>This dialog was opened using an invoker command.</p>
+      <button commandfor="my-dialog" command="close">Close</button>
+    </dialog> -->
