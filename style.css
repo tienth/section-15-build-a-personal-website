@@ -293,6 +293,10 @@ footer a {
 /* Mobile Version */
 
 @media(max-width: 640px) {
+  body {
+    padding: .5px;
+  }
+  
   .logo-mobile {
     display: inline;
   }
