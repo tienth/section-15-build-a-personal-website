@@ -294,7 +294,7 @@ footer a {
 
 @media(max-width: 640px) {
   body {
-    padding: .5px;
+    padding: .5rem;
   }
   
   .logo-mobile {
